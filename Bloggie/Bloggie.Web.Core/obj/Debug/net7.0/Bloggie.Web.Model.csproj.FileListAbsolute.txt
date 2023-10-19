@@ -1,0 +1,14 @@
+C:\Users\user\Desktop\Decagon Blog\Bloggie\Bloggie.Web.Core\bin\Debug\net7.0\Bloggie.Web.Model.deps.json
+C:\Users\user\Desktop\Decagon Blog\Bloggie\Bloggie.Web.Core\bin\Debug\net7.0\Bloggie.Web.Model.runtimeconfig.json
+C:\Users\user\Desktop\Decagon Blog\Bloggie\Bloggie.Web.Core\bin\Debug\net7.0\Bloggie.Web.Model.dll
+C:\Users\user\Desktop\Decagon Blog\Bloggie\Bloggie.Web.Core\bin\Debug\net7.0\Bloggie.Web.Model.pdb
+C:\Users\user\Desktop\Decagon Blog\Bloggie\Bloggie.Web.Core\obj\Debug\net7.0\Bloggie.Web.Model.csproj.AssemblyReference.cache
+C:\Users\user\Desktop\Decagon Blog\Bloggie\Bloggie.Web.Core\obj\Debug\net7.0\Bloggie.Web.Model.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\Desktop\Decagon Blog\Bloggie\Bloggie.Web.Core\obj\Debug\net7.0\Bloggie.Web.Model.AssemblyInfoInputs.cache
+C:\Users\user\Desktop\Decagon Blog\Bloggie\Bloggie.Web.Core\obj\Debug\net7.0\Bloggie.Web.Model.AssemblyInfo.cs
+C:\Users\user\Desktop\Decagon Blog\Bloggie\Bloggie.Web.Core\obj\Debug\net7.0\Bloggie.Web.Model.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\Decagon Blog\Bloggie\Bloggie.Web.Core\obj\Debug\net7.0\Bloggie.Web.Model.dll
+C:\Users\user\Desktop\Decagon Blog\Bloggie\Bloggie.Web.Core\obj\Debug\net7.0\refint\Bloggie.Web.Model.dll
+C:\Users\user\Desktop\Decagon Blog\Bloggie\Bloggie.Web.Core\obj\Debug\net7.0\Bloggie.Web.Model.pdb
+C:\Users\user\Desktop\Decagon Blog\Bloggie\Bloggie.Web.Core\obj\Debug\net7.0\Bloggie.Web.Model.genruntimeconfig.cache
+C:\Users\user\Desktop\Decagon Blog\Bloggie\Bloggie.Web.Core\obj\Debug\net7.0\ref\Bloggie.Web.Model.dll
