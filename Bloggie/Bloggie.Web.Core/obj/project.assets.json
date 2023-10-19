@@ -8567,11 +8567,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\user\\Desktop\\Decagon Blog\\Bloggie\\Bloggie.Web.Core\\Bloggie.Web.Model.csproj",
+      "projectUniqueName": "C:\\Users\\user\\Desktop\\Decagon-Blog\\MyBlogSiteWithAsp.NetMvc\\Bloggie\\Bloggie.Web.Core\\Bloggie.Web.Model.csproj",
       "projectName": "Bloggie.Web.Model",
-      "projectPath": "C:\\Users\\user\\Desktop\\Decagon Blog\\Bloggie\\Bloggie.Web.Core\\Bloggie.Web.Model.csproj",
+      "projectPath": "C:\\Users\\user\\Desktop\\Decagon-Blog\\MyBlogSiteWithAsp.NetMvc\\Bloggie\\Bloggie.Web.Core\\Bloggie.Web.Model.csproj",
       "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\user\\Desktop\\Decagon Blog\\Bloggie\\Bloggie.Web.Core\\obj\\",
+      "outputPath": "C:\\Users\\user\\Desktop\\Decagon-Blog\\MyBlogSiteWithAsp.NetMvc\\Bloggie\\Bloggie.Web.Core\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",

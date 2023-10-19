@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\user\\Desktop\\Decagon Blog\\Bloggie\\Bloggie.Web\\Bloggie.Web.csproj": {}
+    "C:\\Users\\user\\Desktop\\Decagon-Blog\\MyBlogSiteWithAsp.NetMvc\\Bloggie\\Bloggie.Web\\Bloggie.Web.csproj": {}
   },
   "projects": {
-    "C:\\Users\\user\\Desktop\\Decagon Blog\\Bloggie\\Bloggie.Web.Core\\Bloggie.Web.Model.csproj": {
+    "C:\\Users\\user\\Desktop\\Decagon-Blog\\MyBlogSiteWithAsp.NetMvc\\Bloggie\\Bloggie.Web.Core\\Bloggie.Web.Model.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\user\\Desktop\\Decagon Blog\\Bloggie\\Bloggie.Web.Core\\Bloggie.Web.Model.csproj",
+        "projectUniqueName": "C:\\Users\\user\\Desktop\\Decagon-Blog\\MyBlogSiteWithAsp.NetMvc\\Bloggie\\Bloggie.Web.Core\\Bloggie.Web.Model.csproj",
         "projectName": "Bloggie.Web.Model",
-        "projectPath": "C:\\Users\\user\\Desktop\\Decagon Blog\\Bloggie\\Bloggie.Web.Core\\Bloggie.Web.Model.csproj",
+        "projectPath": "C:\\Users\\user\\Desktop\\Decagon-Blog\\MyBlogSiteWithAsp.NetMvc\\Bloggie\\Bloggie.Web.Core\\Bloggie.Web.Model.csproj",
         "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\user\\Desktop\\Decagon Blog\\Bloggie\\Bloggie.Web.Core\\obj\\",
+        "outputPath": "C:\\Users\\user\\Desktop\\Decagon-Blog\\MyBlogSiteWithAsp.NetMvc\\Bloggie\\Bloggie.Web.Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -83,14 +83,14 @@
         }
       }
     },
-    "C:\\Users\\user\\Desktop\\Decagon Blog\\Bloggie\\Bloggie.Web.Data\\Bloggie.Web.Data.csproj": {
+    "C:\\Users\\user\\Desktop\\Decagon-Blog\\MyBlogSiteWithAsp.NetMvc\\Bloggie\\Bloggie.Web.Data\\Bloggie.Web.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\user\\Desktop\\Decagon Blog\\Bloggie\\Bloggie.Web.Data\\Bloggie.Web.Data.csproj",
+        "projectUniqueName": "C:\\Users\\user\\Desktop\\Decagon-Blog\\MyBlogSiteWithAsp.NetMvc\\Bloggie\\Bloggie.Web.Data\\Bloggie.Web.Data.csproj",
         "projectName": "Bloggie.Web.Data",
-        "projectPath": "C:\\Users\\user\\Desktop\\Decagon Blog\\Bloggie\\Bloggie.Web.Data\\Bloggie.Web.Data.csproj",
+        "projectPath": "C:\\Users\\user\\Desktop\\Decagon-Blog\\MyBlogSiteWithAsp.NetMvc\\Bloggie\\Bloggie.Web.Data\\Bloggie.Web.Data.csproj",
         "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\user\\Desktop\\Decagon Blog\\Bloggie\\Bloggie.Web.Data\\obj\\",
+        "outputPath": "C:\\Users\\user\\Desktop\\Decagon-Blog\\MyBlogSiteWithAsp.NetMvc\\Bloggie\\Bloggie.Web.Data\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -107,8 +107,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\user\\Desktop\\Decagon Blog\\Bloggie\\Bloggie.Web.Core\\Bloggie.Web.Model.csproj": {
-                "projectPath": "C:\\Users\\user\\Desktop\\Decagon Blog\\Bloggie\\Bloggie.Web.Core\\Bloggie.Web.Model.csproj"
+              "C:\\Users\\user\\Desktop\\Decagon-Blog\\MyBlogSiteWithAsp.NetMvc\\Bloggie\\Bloggie.Web.Core\\Bloggie.Web.Model.csproj": {
+                "projectPath": "C:\\Users\\user\\Desktop\\Decagon-Blog\\MyBlogSiteWithAsp.NetMvc\\Bloggie\\Bloggie.Web.Core\\Bloggie.Web.Model.csproj"
               }
             }
           }
@@ -162,14 +162,14 @@
         }
       }
     },
-    "C:\\Users\\user\\Desktop\\Decagon Blog\\Bloggie\\Bloggie.Web\\Bloggie.Web.csproj": {
+    "C:\\Users\\user\\Desktop\\Decagon-Blog\\MyBlogSiteWithAsp.NetMvc\\Bloggie\\Bloggie.Web\\Bloggie.Web.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\user\\Desktop\\Decagon Blog\\Bloggie\\Bloggie.Web\\Bloggie.Web.csproj",
+        "projectUniqueName": "C:\\Users\\user\\Desktop\\Decagon-Blog\\MyBlogSiteWithAsp.NetMvc\\Bloggie\\Bloggie.Web\\Bloggie.Web.csproj",
         "projectName": "Bloggie.Web",
-        "projectPath": "C:\\Users\\user\\Desktop\\Decagon Blog\\Bloggie\\Bloggie.Web\\Bloggie.Web.csproj",
+        "projectPath": "C:\\Users\\user\\Desktop\\Decagon-Blog\\MyBlogSiteWithAsp.NetMvc\\Bloggie\\Bloggie.Web\\Bloggie.Web.csproj",
         "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\user\\Desktop\\Decagon Blog\\Bloggie\\Bloggie.Web\\obj\\",
+        "outputPath": "C:\\Users\\user\\Desktop\\Decagon-Blog\\MyBlogSiteWithAsp.NetMvc\\Bloggie\\Bloggie.Web\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -186,11 +186,11 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\user\\Desktop\\Decagon Blog\\Bloggie\\Bloggie.Web.Core\\Bloggie.Web.Model.csproj": {
-                "projectPath": "C:\\Users\\user\\Desktop\\Decagon Blog\\Bloggie\\Bloggie.Web.Core\\Bloggie.Web.Model.csproj"
+              "C:\\Users\\user\\Desktop\\Decagon-Blog\\MyBlogSiteWithAsp.NetMvc\\Bloggie\\Bloggie.Web.Core\\Bloggie.Web.Model.csproj": {
+                "projectPath": "C:\\Users\\user\\Desktop\\Decagon-Blog\\MyBlogSiteWithAsp.NetMvc\\Bloggie\\Bloggie.Web.Core\\Bloggie.Web.Model.csproj"
               },
-              "C:\\Users\\user\\Desktop\\Decagon Blog\\Bloggie\\Bloggie.Web.Data\\Bloggie.Web.Data.csproj": {
-                "projectPath": "C:\\Users\\user\\Desktop\\Decagon Blog\\Bloggie\\Bloggie.Web.Data\\Bloggie.Web.Data.csproj"
+              "C:\\Users\\user\\Desktop\\Decagon-Blog\\MyBlogSiteWithAsp.NetMvc\\Bloggie\\Bloggie.Web.Data\\Bloggie.Web.Data.csproj": {
+                "projectPath": "C:\\Users\\user\\Desktop\\Decagon-Blog\\MyBlogSiteWithAsp.NetMvc\\Bloggie\\Bloggie.Web.Data\\Bloggie.Web.Data.csproj"
               }
             }
           }
