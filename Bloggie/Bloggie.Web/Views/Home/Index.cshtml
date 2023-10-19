@@ -1,4 +1,9 @@
-﻿@model Bloggie.Web.Models.ViewModels.HomeViewModel
+﻿@using Microsoft.AspNetCore.Identity
+@inject SignInManager<IdentityUser> signInManager
+@inject UserManager<IdentityUser> userManager
+
+
+@model Bloggie.Web.Models.ViewModels.HomeViewModel
 
 @{
     ViewData["Title"] = "Home Page";
@@ -8,33 +13,42 @@
     <div class="row align-items-center g-5 py-5">
         <div class="col-12 col-lg-6">
             <h1 class="display-5 fw-bold lh-1 mb-3">
-                Bloggie - The Dev Blog
+                CodeGalaxy: Your Tech Universe
             </h1>
             <p class="lead">
-                Bloggie is the home to coding blogs covering a vast range of topics
-                like HTML, CSS, Javascript, ASP.NET, Java, C#, Angular, etc. Want to read
-                the latest dev articles? Join the Bloggie app and get weekly blogs
-                in your email.
+                Discover the vast universe of technology at CodeGalaxy.
+                From HTML, CSS, and JavaScript to ASP.NET, Java, C#, Angular, and more,
+                we're your portal to the latest in tech innovation. Embark on a journey
+                through the cosmos of coding and explore new frontiers in the digital universe.
             </p>
+            @if (signInManager.IsSignedIn(User))
+            {
+                <a class="btn btn-dark" asp-area="" asp-controller="Home" asp-action="Index">Explore More</a>
+            }
+            else
+            {
+                <a class="btn btn-dark" asp-area="" asp-controller="Account" asp-action="Register">Explore More</a>
+            }
         </div>
 
         <div class="col-12 col-lg-6">
-            <img src="https://images.pexels.com/photos/57690/pexels-photo-57690.jpeg?auto=compress&cs=tinysrgb&w=600"
-                 alt="Bloggie - Dev blogs"
+            <img src="https://images.pexels.com/photos/3459979/pexels-photo-3459979.jpeg?auto=compress&cs=tinysrgb&w=600"
+                 alt="CodeGalaxy - Your Tech Universe"
                  class="d-block mx-lg-auto img-fluid" width="300" />
         </div>
     </div>
 </div>
 
-<div class="container">
-    <div class="row justify-content-center">
-        <div class="col-6">
-            @if (Model != null && Model.BlogPosts.Any())
-            {
-                var recentBlogPosts = Model.BlogPosts.OrderByDescending(post => post.PublishedDate);
 
-                foreach (var blogPost in recentBlogPosts)
-                {
+<div class="container">
+    <div class="row">
+        @if (Model != null && Model.BlogPosts.Any())
+        {
+            var recentBlogPosts = Model.BlogPosts.OrderByDescending(post => post.PublishedDate);
+
+            @foreach (var blogPost in recentBlogPosts)
+            {
+                <div class="col-md-6">
                     <div class="mb-5 bg-light box-shadow p-5">
                         <img src="@blogPost.FeaturedImageUrl"
                              alt="@blogPost.Heading" class="mb-2 d-block img-fluid" />
@@ -59,8 +73,88 @@
                            asp-action="Index"
                            asp-route-urlHandle="@blogPost.UrlHandle">Read More</a>
                     </div>
-                }
+                </div>
             }
+        }
+    </div>
+</div>
+
+
+
+@* @model Bloggie.Web.Models.ViewModels.HomeViewModel
+
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<!-- Header Section -->
+<div class="container col-xxl-8 px-4 py-5">
+    <div class="row align-items-center g-5 py-5">
+        <div class="col-12 col-lg-6">
+            <h1 class="display-5 fw-bold lh-1 mb-3">
+                CodeGalaxy: Your Tech Universe
+            </h1>
+            <p class="lead">
+                Discover the vast universe of technology at CodeGalaxy.
+                From HTML, CSS, and JavaScript to ASP.NET, Java, C#, Angular, and more,
+                we're your portal to the latest in tech innovation. Embark on a journey
+                through the cosmos of coding and explore new frontiers in the digital universe.
+            </p>
+            <a class="btn btn-dark btn-lg" href="/Blogs">Explore Blogs</a>
+        </div>
+
+        <div class="col-12 col-lg-6">
+            <img src="https://images.pexels.com/photos/3459979/pexels-photo-3459979.jpeg?auto=compress&cs=tinysrgb&w=600"
+                 alt="CodeGalaxy - Your Tech Universe"
+                 class="d-block mx-lg-auto img-fluid" width="300" />
         </div>
     </div>
 </div>
+
+<!-- Featured Blogs Section -->
+<div class="container">
+    <div class="row justify-content-center">
+        <div class="col-12">
+            <h2 class="fw-bold mb-4">Featured Blogs</h2>
+        </div>
+    </div>
+    <div class="row">
+        @if (Model != null && Model.BlogPosts.Any())
+        {
+            var featuredBlogPosts = Model.BlogPosts.OrderByDescending(post => post.PublishedDate).ToList();
+
+            @for (var i = 0; i < featuredBlogPosts.Count; i++)
+            {
+                var blogPost = featuredBlogPosts[i];
+
+                <div class="col-12 col-md-4 mb-4">
+                    <div class="card mb-4 shadow-sm" style="height: 100%; min-height: 100%;">
+                        <img src="@blogPost.FeaturedImageUrl" alt="@blogPost.Heading" class="card-img-top" style="height: 200px; object-fit: cover;">
+                        <div class="card-body" style="height: 100%;">
+                            <h3 class="card-title">@blogPost.Heading</h3>
+                            <p class="card-text">@blogPost.ShortDescription</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group">
+                                    <a href="/Blogs/Index/@blogPost.UrlHandle" class="btn btn-sm btn-outline-secondary">Read More</a>
+                                </div>
+                                <small class="text-muted">Published on @blogPost.PublishedDate.ToShortDateString()</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                @if (i == 2 || i == featuredBlogPosts.Count - 1)
+                {
+                    <div class="w-100 mb-4"></div>
+                }
+            }
+        }
+    </div>
+</div> *@
+
+
+
+
+
+
+
