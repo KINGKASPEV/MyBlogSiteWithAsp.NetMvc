@@ -23,11 +23,11 @@
             </p>
             @if (signInManager.IsSignedIn(User))
             {
-                <a class="btn btn-dark" asp-area="" asp-controller="Home" asp-action="Index">Explore More</a>
+                <a class="btn btn-outline-dark me-3" asp-area="" asp-controller="Home" asp-action="Index">Explore More</a>
             }
             else
             {
-                <a class="btn btn-dark" asp-area="" asp-controller="Account" asp-action="Register">Explore More</a>
+                <a class="btn btn-outline-dark me-3" asp-area="" asp-controller="Account" asp-action="Register">Explore More</a>
             }
         </div>
 
