@@ -18,7 +18,7 @@ namespace Bloggie.Web.Data.Repository.Implementation
         {
             var users = await authDbContext.Users.ToListAsync();
             var superAdminUser = await authDbContext.Users.FirstOrDefaultAsync(
-                x => x.Email == "superadmin@bloggie.com");
+                x => x.Email == "superadminkingsley@bloggie.com");
 
             if (superAdminUser != null)
             {
