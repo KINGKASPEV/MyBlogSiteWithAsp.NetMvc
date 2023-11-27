@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<sitemanifest>
+  <IisApp path="C:\Users\user\Desktop\My-project\MyBlogSiteWithAsp.NetMvc\Bloggie\Bloggie.Web\obj\Release\net7.0\PubTmp\Out\" />
+  <dbfullsql path="C:\Users\user\Desktop\My-project\MyBlogSiteWithAsp.NetMvc\Bloggie\Bloggie.Web\obj\Release\net7.0\PubTmp\EFSQLScripts\Bloggie.Web.Data.AuthDbContext.sql" />
+  <dbfullsql path="C:\Users\user\Desktop\My-project\MyBlogSiteWithAsp.NetMvc\Bloggie\Bloggie.Web\obj\Release\net7.0\PubTmp\EFSQLScripts\Bloggie.Web.Data.BloggieDbContext.sql" />
+</sitemanifest>

@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="IIS Web Application Name" description="" value="Codegalaxyblog" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^C:\\Users\\user\\Desktop\\My-project\\MyBlogSiteWithAsp\.NetMvc\\Bloggie\\Bloggie\.Web\\obj\\Release\\net7\.0\\PubTmp\\Out\\$" />
+  </parameter>
+  <parameter name="Bloggie.Web.Data.AuthDbContext" description="" value="Data Source=bloggieserver-12.database.windows.net,1433;Initial Catalog=Bloggie.Web_db;User ID=Codegalaxy;Password=Chibuoyimu22" tags="dbfullsql">
+    <parameterEntry kind="ProviderPath" scope="dbfullsql" match="^C:\\Users\\user\\Desktop\\My-project\\MyBlogSiteWithAsp\.NetMvc\\Bloggie\\Bloggie\.Web\\obj\\Release\\net7\.0\\PubTmp\\EFSQLScripts\\Bloggie\.Web\.Data\.AuthDbContext\.sql$" />
+  </parameter>
+  <parameter name="Bloggie.Web.Data.BloggieDbContext" description="" value="Data Source=bloggieserver-12.database.windows.net,1433;Initial Catalog=Bloggie.Web_db;User ID=Codegalaxy;Password=Chibuoyimu22" tags="dbfullsql">
+    <parameterEntry kind="ProviderPath" scope="dbfullsql" match="^C:\\Users\\user\\Desktop\\My-project\\MyBlogSiteWithAsp\.NetMvc\\Bloggie\\Bloggie\.Web\\obj\\Release\\net7\.0\\PubTmp\\EFSQLScripts\\Bloggie\.Web\.Data\.BloggieDbContext\.sql$" />
+  </parameter>
+</parameters>

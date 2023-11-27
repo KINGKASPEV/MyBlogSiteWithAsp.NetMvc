@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project>
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAr2YD5aVb30+nMweZofkSdQAAAAACAAAAAAAQZgAAAAEAACAAAAC02q2JBOb+puuRvm1+0WG+tSE2knlLl4VTRufXxsJdcgAAAAAOgAAAAAIAACAAAABTJQfGeyG0856Epc1ethUgkS5JxtXxHh+uLDGOHO+hwIAAAADw3R44TyRAO0Nz8BJFNd7mfcFveM067z5laaYOOCzUOWC5XVbnqEkrCBuKKeTZ5pYOsNQk3ewUBlwa8OOOmvPSdWHe0VD36FOqmOvGGgn/Ur0jviBhonzWmZwtKCL3+UWvopYXWZUELho6HLsoDJoFSkDkIiZ6nH0yg9Hm4tvWMkAAAACf8soQUblnBE2smUq5n50GvSBLBwc19x4b7GBonKOI54AT0hguuDLuXE0/gM1Iy59UOt3HXihIN1KrV5TKRH3d</EncryptedPassword>
+    <History>False|2023-10-23T22:37:16.8825010Z;False|2023-10-23T23:31:30.4343531+01:00;False|2023-10-23T23:29:26.8313952+01:00;True|2023-10-23T23:24:32.1067202+01:00;</History>
+    <LastFailureDetails />
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="BloggieAuthDbConnectionString">
+      <Value>Server=DESKTOP-VMTE4F8\SQL_SERVER%3bDatabase=BloggieDb%3bTrusted_Connection=True%3bTrustServerCertificate=Yes</Value>
+    </DestinationConnectionStrings>
+    <DestinationConnectionStrings Include="BloggieDbConnectionString">
+      <Value>Server=DESKTOP-VMTE4F8\SQL_SERVER%3bDatabase=BloggieDb%3bTrusted_Connection=True%3bTrustServerCertificate=Yes</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+  <ItemGroup>
+    <EFMigrations Include="Bloggie.Web.Data.AuthDbContext">
+      <Value>Server=DESKTOP-VMTE4F8\SQL_SERVER%3bDatabase=BloggieDb%3bTrusted_Connection=True%3bTrustServerCertificate=Yes</Value>
+    </EFMigrations>
+    <EFMigrations Include="Bloggie.Web.Data.BloggieDbContext">
+      <Value>Server=DESKTOP-VMTE4F8\SQL_SERVER%3bDatabase=BloggieDb%3bTrusted_Connection=True%3bTrustServerCertificate=Yes</Value>
+    </EFMigrations>
+  </ItemGroup>
+</Project>

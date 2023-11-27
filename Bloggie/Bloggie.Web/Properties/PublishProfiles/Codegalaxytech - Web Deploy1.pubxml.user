@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project>
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAr2YD5aVb30+nMweZofkSdQAAAAACAAAAAAAQZgAAAAEAACAAAACzN288cFIQ2+tFgSCcHfUQpHFLGYqH4riHBWX/bihi/gAAAAAOgAAAAAIAACAAAAAVUlSce5VaUhiUkvQkYCDY993R4XxV3y25xBlEdU0dyIAAAADCjIVwE6N0uYhF04i7U9L9IAuEcNA+M8IS/Zu6wZMuu/f7Zk4kyjW2t0OXmHHt96jKmWYFxvS6gz8V8Xq+uDAbpkAG4hcGsZyc/rf4dd4RhoxqrArvfK0D3ArhXSIvhZ3kEn5Ug+raWbLUGscMFsTT/nYcA6UpyPIZSeT12msLOkAAAABcgtj5ntVL79IPDHm7hsBTIy6imXRxjR2i3/eLry4E4I3VAXGdLLpL8L46XAT7eAvzXoljVDljVvK726t13s9+</EncryptedPassword>
+    <History>False|2023-10-25T09:04:49.6980747Z;False|2023-10-25T10:03:04.7062223+01:00;True|2023-10-24T10:52:18.0308119+01:00;True|2023-10-24T10:00:45.8535762+01:00;True|2023-10-24T09:51:32.8944659+01:00;True|2023-10-24T09:49:57.3436664+01:00;True|2023-10-24T01:32:22.7138872+01:00;</History>
+    <LastFailureDetails />
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="BloggieDbConnectionString">
+      <Value>Data Source=bloggieserver-1.database.windows.net,1433%3bInitial Catalog=BloggieDb%3bUser ID=Techworld%3bPassword=Chibuoyimu22</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+  <ItemGroup>
+    <EFMigrations Include="Bloggie.Web.Data.BloggieDbContext">
+      <Value>Data Source=bloggieserver-1.database.windows.net,1433%3bInitial Catalog=BloggieDb%3bUser ID=Techworld%3bPassword=Chibuoyimu22</Value>
+    </EFMigrations>
+  </ItemGroup>
+</Project>

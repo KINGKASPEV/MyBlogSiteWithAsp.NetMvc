@@ -8610,11 +8610,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\user\\Desktop\\Decagon-Blog\\MyBlogSiteWithAsp.NetMvc\\Bloggie\\Bloggie.Web\\Bloggie.Web.csproj",
+      "projectUniqueName": "C:\\Users\\user\\Desktop\\My-project\\MyBlogSiteWithAsp.NetMvc\\Bloggie\\Bloggie.Web\\Bloggie.Web.csproj",
       "projectName": "Bloggie.Web",
-      "projectPath": "C:\\Users\\user\\Desktop\\Decagon-Blog\\MyBlogSiteWithAsp.NetMvc\\Bloggie\\Bloggie.Web\\Bloggie.Web.csproj",
+      "projectPath": "C:\\Users\\user\\Desktop\\My-project\\MyBlogSiteWithAsp.NetMvc\\Bloggie\\Bloggie.Web\\Bloggie.Web.csproj",
       "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\user\\Desktop\\Decagon-Blog\\MyBlogSiteWithAsp.NetMvc\\Bloggie\\Bloggie.Web\\obj\\",
+      "outputPath": "C:\\Users\\user\\Desktop\\My-project\\MyBlogSiteWithAsp.NetMvc\\Bloggie\\Bloggie.Web\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -8631,11 +8631,11 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "C:\\Users\\user\\Desktop\\Decagon-Blog\\MyBlogSiteWithAsp.NetMvc\\Bloggie\\Bloggie.Web.Core\\Bloggie.Web.Model.csproj": {
-              "projectPath": "C:\\Users\\user\\Desktop\\Decagon-Blog\\MyBlogSiteWithAsp.NetMvc\\Bloggie\\Bloggie.Web.Core\\Bloggie.Web.Model.csproj"
+            "C:\\Users\\user\\Desktop\\My-project\\MyBlogSiteWithAsp.NetMvc\\Bloggie\\Bloggie.Web.Core\\Bloggie.Web.Model.csproj": {
+              "projectPath": "C:\\Users\\user\\Desktop\\My-project\\MyBlogSiteWithAsp.NetMvc\\Bloggie\\Bloggie.Web.Core\\Bloggie.Web.Model.csproj"
             },
-            "C:\\Users\\user\\Desktop\\Decagon-Blog\\MyBlogSiteWithAsp.NetMvc\\Bloggie\\Bloggie.Web.Data\\Bloggie.Web.Data.csproj": {
-              "projectPath": "C:\\Users\\user\\Desktop\\Decagon-Blog\\MyBlogSiteWithAsp.NetMvc\\Bloggie\\Bloggie.Web.Data\\Bloggie.Web.Data.csproj"
+            "C:\\Users\\user\\Desktop\\My-project\\MyBlogSiteWithAsp.NetMvc\\Bloggie\\Bloggie.Web.Data\\Bloggie.Web.Data.csproj": {
+              "projectPath": "C:\\Users\\user\\Desktop\\My-project\\MyBlogSiteWithAsp.NetMvc\\Bloggie\\Bloggie.Web.Data\\Bloggie.Web.Data.csproj"
             }
           }
         }

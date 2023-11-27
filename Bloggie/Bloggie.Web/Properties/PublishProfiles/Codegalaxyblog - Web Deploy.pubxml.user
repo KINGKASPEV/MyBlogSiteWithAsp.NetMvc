@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project>
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAr2YD5aVb30+nMweZofkSdQAAAAACAAAAAAAQZgAAAAEAACAAAADTFxFYs0P/sW/AsYu1nzMbyIhlx4lXGcvixx7NONBGjgAAAAAOgAAAAAIAACAAAACmWFLzfljatrqrPVM6sh/u4jK1gbsHkjpR1BZyomYeEIAAAAB+h8ydGHzMLgTrIIr7DJO2WDEItMpPGkTKLW8YttGk4PmyDLlugt10mzIenMWW4YWZAbbbEJMKbu0okhK0eBan54VFUnVh5ojYQ9albyh4TnJjlGvjrn09xnShbZvWohuuz5WFiQNVkTQ7cVZ0jRjBfbPHwVfLTsh3VfTcqMAX6EAAAACShr/r69fTcrYRF9j0ks1PULtsIrMqHfMET3JQANM18CQV6P3AqfUCI7YI0pm/bs3yBAsy+Gc9uRAopbNiRKmC</EncryptedPassword>
+    <History>True|2023-10-25T09:25:42.5772758Z;True|2023-10-25T10:23:39.8249604+01:00;</History>
+    <LastFailureDetails />
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="BloggieAuthDbConnectionString">
+      <Value>Data Source=bloggieserver-12.database.windows.net,1433%3bInitial Catalog=Bloggie.Web_db%3bUser ID=Codegalaxy%3bPassword=Chibuoyimu22</Value>
+    </DestinationConnectionStrings>
+    <DestinationConnectionStrings Include="BloggieDbConnectionString">
+      <Value>Data Source=bloggieserver-12.database.windows.net,1433%3bInitial Catalog=Bloggie.Web_db%3bUser ID=Codegalaxy%3bPassword=Chibuoyimu22</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+  <ItemGroup>
+    <EFMigrations Include="Bloggie.Web.Data.AuthDbContext">
+      <Value>Data Source=bloggieserver-12.database.windows.net,1433%3bInitial Catalog=Bloggie.Web_db%3bUser ID=Codegalaxy%3bPassword=Chibuoyimu22</Value>
+    </EFMigrations>
+    <EFMigrations Include="Bloggie.Web.Data.BloggieDbContext">
+      <Value>Data Source=bloggieserver-12.database.windows.net,1433%3bInitial Catalog=Bloggie.Web_db%3bUser ID=Codegalaxy%3bPassword=Chibuoyimu22</Value>
+    </EFMigrations>
+  </ItemGroup>
+</Project>
