@@ -31,19 +31,30 @@ Clone the repository:
 git clone https://github.com/KINGKASPEV/MyBlogSiteWithAsp.NetMvc.git
 Navigate to the project directory:
 
-cd MyBlogSiteWithAsp.NetMvc
+cd Bloggie.Web
 
 
 Restore the dependencies:
+
+
 dotnet restore
+
+
 Update the connection string in appsettings.json to match your local SQL Server setup.
+
+
 Apply the latest migrations to create the database schema:
 
+
 dotnet ef database update
+
+
 Run the application:
 
 dotnet run
 
 
 Contributing
+
+
 Contributions are welcome! If you have any suggestions or improvements, feel free to submit a pull request or open an issue.
